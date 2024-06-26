@@ -23,7 +23,7 @@
   color: var(--accent-color);
 }
 
-.bg_img{
+.bg_img {
   background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-position: center;
