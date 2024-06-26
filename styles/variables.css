@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --bg-color: #000000;
+    --accent-color: #00cc14;
+    --accent-color-rgb: 0, 204, 20;
+    --bg-image: url(../svg/pattern-dark.svg);
+    --main-font: 'Inter-Variable';
+    --accent-font: 'PressStart2P';
+    --normal-font-weight: 465;
+    --bold-font-weight: 785;
+    --content-width: clamp(20.833rem, 14.554rem + 30.141vw, 38.667rem);
+    --fill-contour-color: #00cc14;
+    --fill-core-color: #FFFFFF;
+}
