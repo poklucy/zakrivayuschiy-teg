@@ -100,7 +100,6 @@
   content: '';
   display: block;
   width: 0%;
-  height: 2px;
   background-color: var(--accent-color);
   opacity: 0;
   transition: width 0.3s ease, opacity 0.3s ease;
@@ -195,7 +194,7 @@
 }
 
 .button__img {
-  width: 1.2rem;
+  width:21px;
   position: relative;
   z-index: 1;
 }
@@ -260,4 +259,24 @@
     position: relative;
     z-index: 1;
   }
+}
+
+.button__like-icon {
+  background-color: transparent;
+  border: 0px solid var(--accent-color);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  outline: 0px solid var(--accent-color);
+  outline-offset: -2px;
+  transition: outline 0.3s ease;
+}
+
+.button__like-icon:focus {
+  outline: 0px solid var(--accent-color);
+}
+
+.button__like-icon:focus-visible {
+  outline: 2px solid var(--accent-color);
 }
