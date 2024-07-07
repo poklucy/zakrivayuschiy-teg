@@ -123,6 +123,7 @@
   left: -16px;
   bottom: 1px;
   animation: shiftArrow 0.5s infinite ease-in-out alternate;
+  font-size: 14px;сфв
 }
 
 .main {
@@ -146,6 +147,7 @@
   flex-direction: column;
   gap: 25px;
   padding: 25px 25px;
+  line-height: 117%;
 }
 
 .card__title {
@@ -332,7 +334,6 @@
 }
 
 .dialog__img {
-  width: 2.5rem;
   stroke-width: 0.3;
 }
 
